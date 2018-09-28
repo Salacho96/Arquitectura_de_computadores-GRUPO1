@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\simulation\qsim
+vFLIP_FLOP
+Z1 !s100 4>dHAan2mSMHROk10PjiV3
+Z2 I6?=h?NB]^0Y[i>d0IiYKg3
+Z3 V[Z=]n6K0H73B]LTod4?Q>3
+Z4 dC:\VHDL\simulation\qsim
+Z5 w1538154174
+Z6 8FLIP_FLOP.vo
+Z7 FFLIP_FLOP.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|FLIP_FLOP.vo|
+Z10 o-work work -O0
+Z11 n@f@l@i@p_@f@l@o@p
+!i10b 1
+!s85 0
+Z12 !s108 1538154175.292000
+Z13 !s107 FLIP_FLOP.vo|
+!s101 -O0
+vFLIP_FLOP_vlg_check_tst
+!i10b 1
+Z14 !s100 J6=io4RTNLLW8k2MfkmkV3
+Z15 I@jVaFF@2H:O7j3P4:`FD13
+Z16 VddgV7FZ=DM@DI]V=Lk2`J3
+R4
+Z17 w1538154173
+Z18 8FLIP_FLOP.vt
+Z19 FFLIP_FLOP.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z20 !s108 1538154175.433000
+Z21 !s107 FLIP_FLOP.vt|
+Z22 !s90 -work|work|FLIP_FLOP.vt|
+!s101 -O0
+R10
+Z23 n@f@l@i@p_@f@l@o@p_vlg_check_tst
+vFLIP_FLOP_vlg_sample_tst
+!i10b 1
+Z24 !s100 9?<U?L`kBlQ0^CiOkN1<43
+Z25 IWSLhRe48922:<iL6=WO4Q0
+Z26 VF27k23EeN50DJhjad0^<V0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@f@l@i@p_@f@l@o@p_vlg_sample_tst
+vFLIP_FLOP_vlg_vec_tst
+!i10b 1
+!s100 RXfzU5cz:7z`X^5Gif@UM2
+ID;H`ROHH]7;N4S^[>=ciP1
+Z28 VDmi<KSikBT1:OdZB4Y6dE1
+R4
+R17
+R18
+R19
+Z29 L0 154
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@f@l@i@p_@f@l@o@p_vlg_vec_tst
