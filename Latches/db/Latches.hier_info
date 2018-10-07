@@ -1,0 +1,9 @@
+|Latches
+R => Q.IN1
+Temp => ~NO_FANOUT~
+Reset => notQ.LATCH_ENABLE
+Reset => Q$latch.LATCH_ENABLE
+S <> <GND>
+Q <> Q
+
+
