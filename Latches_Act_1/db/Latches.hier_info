@@ -1,0 +1,11 @@
+|Latches
+R => Q.IN1
+Temp => ~NO_FANOUT~
+Reset => ~NO_FANOUT~
+Set => notQ.CLK
+Set => Q~reg0.CLK
+Set => S~reg0.CLK
+S <> S~reg0
+Q <> Q~reg0
+
+
