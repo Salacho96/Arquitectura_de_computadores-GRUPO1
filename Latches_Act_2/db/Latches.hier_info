@@ -1,0 +1,35 @@
+|Latches
+Temp => notQ[0]$latch.LATCH_ENABLE
+Temp => notQ[1]$latch.LATCH_ENABLE
+Temp => notQ[2]$latch.LATCH_ENABLE
+Temp => notQ[3]$latch.LATCH_ENABLE
+Temp => Q[0]$latch.LATCH_ENABLE
+Temp => Q[1]$latch.LATCH_ENABLE
+Temp => Q[2]$latch.LATCH_ENABLE
+Temp => Q[3]$latch.LATCH_ENABLE
+Reset => notQ[0]$latch.PRESET
+Reset => notQ[1]$latch.PRESET
+Reset => notQ[2]$latch.PRESET
+Reset => notQ[3]$latch.PRESET
+Reset => Q[0]$latch.ACLR
+Reset => Q[1]$latch.ACLR
+Reset => Q[2]$latch.ACLR
+Reset => Q[3]$latch.ACLR
+S[0] => Q[0]$latch.DATAIN
+S[0] => notQ[0]$latch.DATAIN
+S[1] => Q[1]$latch.DATAIN
+S[1] => notQ[1]$latch.DATAIN
+S[2] => Q[2]$latch.DATAIN
+S[2] => notQ[2]$latch.DATAIN
+S[3] => Q[3]$latch.DATAIN
+S[3] => notQ[3]$latch.DATAIN
+Q[0] <= Q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+notQ[0] <= notQ[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+notQ[1] <= notQ[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+notQ[2] <= notQ[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+notQ[3] <= notQ[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
