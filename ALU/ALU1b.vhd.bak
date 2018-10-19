@@ -1,0 +1,21 @@
+Library.IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity ALU1b is generic(
+	ANCHO:natural:=1;
+	ANCHO2:natural:=2
+);
+port(
+ALU_OP: in std_logic_vector(1 downto 0);
+A,B: in std_logic;
+OUT1: out std_logic_vector(1 downto 0));
+end entity;
+
+architecture alusita of ALU1b is
+Case ALU_OP is
+when "00" =>
+OUT1 <= std_logic_vector((unisgned(A) + unisgned(B)));
+
+end architecture alusita;
+
