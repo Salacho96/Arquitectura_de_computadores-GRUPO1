@@ -1,0 +1,11 @@
+|Semaforo
+Clk => Actual.CLK
+Sensor => Siguiente.DATAA
+Sensor => TimerActivado.DATAA
+FIN => Siguiente.DATAB
+FIN => TimerActivado.DATAB
+TimerActivado <= TimerActivado.DB_MAX_OUTPUT_PORT_TYPE
+LuzMajor <= Actual.DB_MAX_OUTPUT_PORT_TYPE
+LuzMinor <= Actual.DB_MAX_OUTPUT_PORT_TYPE
+
+
