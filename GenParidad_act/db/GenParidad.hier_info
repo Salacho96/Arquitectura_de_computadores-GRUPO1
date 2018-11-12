@@ -1,0 +1,20 @@
+|GenParidad
+a[7] => paridad.IN1
+a[6] => paridad.IN1
+a[5] => paridad.IN1
+a[4] => paridad.IN1
+a[3] => paridad.IN1
+a[2] => paridad.IN1
+a[1] => paridad.IN1
+a[0] => paridad[0].IN0
+b[7] => paridad.IN1
+b[6] => paridad[6].IN1
+b[5] => paridad[5].IN1
+b[4] => paridad[4].IN1
+b[3] => paridad[3].IN1
+b[2] => paridad[2].IN1
+b[1] => paridad[1].IN1
+b[0] => paridad[0].IN1
+result <= paridad.DB_MAX_OUTPUT_PORT_TYPE
+
+
