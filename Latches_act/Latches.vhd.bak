@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+Entity Latches is port(
+	R,Entry1,Entry2,Reset: in std_logic;
+	S,Q: inout std_logic
+);
+
+end Latches;
+
+Architecture FlipFlop of Latches is
+signal notQ : STD_LOGIC;
+begin 
+		S <= Entry1 and Entry2;
+	process(Reset)
+	begin	
+		Q <= R nor notQ;
+		notQ <= S nor Q; 
+	end process;
+end FlipFlop;
