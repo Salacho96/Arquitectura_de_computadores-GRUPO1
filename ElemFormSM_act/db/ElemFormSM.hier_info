@@ -1,0 +1,9 @@
+|ElemFormSm
+Clk => Q[0]~reg0.CLK
+Clk => Q[1]~reg0.CLK
+Reset => Q[0]~reg0.ACLR
+Reset => Q[1]~reg0.ACLR
+Q[0] <> Q[0]~reg0
+Q[1] <> Q[1]~reg0
+
+
