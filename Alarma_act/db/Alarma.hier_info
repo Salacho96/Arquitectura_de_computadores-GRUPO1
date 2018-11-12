@@ -1,0 +1,7 @@
+|Alarma
+L => A.IN0
+S => A.IN1
+D => A.IN1
+A <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
