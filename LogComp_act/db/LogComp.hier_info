@@ -1,0 +1,14 @@
+|LogComp
+x => zor.IN0
+x => zxor.IN0
+x => zand.IN0
+x => znot.DATAIN
+y => zor.IN1
+y => zxor.IN1
+y => zand.IN1
+znot <= x.DB_MAX_OUTPUT_PORT_TYPE
+zor <= zor.DB_MAX_OUTPUT_PORT_TYPE
+zxor <= zxor.DB_MAX_OUTPUT_PORT_TYPE
+zand <= zand.DB_MAX_OUTPUT_PORT_TYPE
+
+
