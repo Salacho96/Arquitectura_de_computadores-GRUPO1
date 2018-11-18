@@ -35,6 +35,9 @@ En este programa la entidad toma como entrada 2 vectores de 8 bits y retorna com
 Latches.vhd:
 En este programa se describe el funcionamiento de un latch en el cual se es sencible a 2 entradas que en este caso seria el Temp y el reset y recibe un vector tipo S con los datos y una salida tipo Q que sera la salida del vector. primero como prioridad se dice que si reset es 1 la salida necesariamente del latch Q debe ser "0000" y ¬Q sera necesariamente "1111", a su vez se evalua Temp, si temp es 1 y Reset es 0 el latch arrojara necesariamente el vector S caso contrario arrojara "0000" y si ambos son 1 habra una inconsistencia y no arrojara valores fiables.
 
+FLIP_FLOP.vdh:
+En este programa se modela el funcionamiento basico de un flip flop con paso directo de informacion dependiendo unicamente del flanco de subida del clk al cual es sensible el proceso. 
+
 LatchesCodAlterno.vhd:
 En este codigo alternativo al anterior, aqui se declaran 3 entradas y 2 salidas, todas de tipo std_logic, despues sobre la arquitectura que es como la de un flip flop se declaran 2 vectores de 4 bits cada 1 y un dato de tipo std_logic, alli se inicializaran las entradas Q como operacion logica entre Q y nor R, notQ como operacion logica entre S y nor Q y despues OutV como un vector "0000", todo esto su reset esta en 0, alli finaliza la arquitectura, si eso no se cumple el process se ejecuta iniciando asi las asignaciones a todos los valores declarados tanto en la arquitectura como en la entidad, dando a comprender por medio de sus asingnaciones los latch tipo nor.
 
