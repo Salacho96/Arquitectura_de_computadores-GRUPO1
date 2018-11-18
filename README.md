@@ -1,4 +1,4 @@
-# LAB_ARQUITECTURA
+# LAB_ARQUITECTURA - GRUPO 1
 --------------------------------------------------------------
 Por:
 Camila López -
