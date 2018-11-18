@@ -1,9 +1,9 @@
 # LAB_ARQUITECTURA
 --------------------------------------------------------------
 Por:
-Camila López-
-David Hernández-
-Andres Salazar-
+Camila López -
+David Hernández -
+Andres Salazar -
 --------------------------------------------------------------
 
 
